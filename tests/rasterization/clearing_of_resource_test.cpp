@@ -1,5 +1,5 @@
 #define CATCH_CONFIG_MAIN
-//#define CATCH_CONFIG_ENABLE_BENCHMARKING
+#define CATCH_CONFIG_ENABLE_BENCHMARKING
 
 #include "renderer/rasterizer/rasterizer.h"
 #include "resource.h"
@@ -83,7 +83,7 @@ SCENARIO("Rasterizer can clear render target", "[rasterizer]")
 	}
 }
 
-/*
+
 TEST_CASE("FullHD clear benchmark", "[benchmark]")
 {
 	cg::renderer::rasterizer<float, unsigned char> rasterizer;
@@ -95,4 +95,3 @@ TEST_CASE("FullHD clear benchmark", "[benchmark]")
 		return rasterizer.clear_render_target(0);
 	};
 }
-*/
