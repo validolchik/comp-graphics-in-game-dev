@@ -39,7 +39,7 @@ SCENARIO("Rasterizer produces correct image")
 
 			THEN("Make sure than image is correct")
 			{
-				for (size_t x = 0; x < 10; x++)
+				for (size_t x = 0; x < 9; x++)
 				{
 					REQUIRE(render_target->item(x, 0).r == 255);
 					REQUIRE(render_target->item(x, 0).g == 255);

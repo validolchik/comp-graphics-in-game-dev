@@ -60,7 +60,7 @@ void cg::renderer::rasterization_renderer::render()
 						  vertex_data.ambient_b };
 	};
 
-	rasterizer->clear_render_target({ 255, 255, 0 });
+	rasterizer->clear_render_target({ 255, 0, 255 });
 	rasterizer->draw(model->get_vertex_buffer()->get_number_of_elements(), 0);
 	// rasterizer->draw(3, 3);
 	

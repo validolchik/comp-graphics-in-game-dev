@@ -40,7 +40,7 @@
         },
         {
           "Id": "dce29ec4-5bf9-4abe-9475-4984d1c73d80",
-          "Command": "--camera_position=0.0,0.0,2.0"
+          "Command": "--camera_position=0.5,0.5,3.0"
         },
         {
           "Id": "223f7067-8cb1-4b50-9f1b-270549c72211",
@@ -58,11 +58,11 @@
         },
         {
           "Id": "8a50af39-eb7c-4e60-906d-46af845ecabf",
-          "Command": "--camera_position=0.0,1.0,2.0"
+          "Command": "--camera_position=0.0,-1.0,3.0"
         },
         {
           "Id": "88d7c4f0-ade9-4a97-b7a0-43bdf94bbcee",
-          "Command": "--camera_phi=-25"
+          "Command": "--camera_phi=-20"
         },
         {
           "Id": "05b865e0-49f7-4bad-825f-a0819b4cff74",
