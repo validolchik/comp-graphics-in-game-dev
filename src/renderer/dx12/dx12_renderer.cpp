@@ -304,7 +304,7 @@ void cg::renderer::dx12_renderer::load_assets()
 		&CD3DX12_RESOURCE_DESC::Buffer(64*1024),
 		D3D12_RESOURCE_STATE_GENERIC_READ, nullptr, IID_PPV_ARGS(&constant_buffer)));
 	THROW_IF_FAILED(
-		vertex_buffer->Map(0, &read_range, reinterpret_cast<void**>(&constant_buffer_data_begin)));
+		constant_buffer->Map(0, &read_range, reinterpret_cast<void**>(&constant_buffer_data_begin)));
 	memcpy(constant_buffer_data_begin, &world_view_projection, sizeof(world_view_projection));
 
 	// create constant buffer descriptor
